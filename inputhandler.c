@@ -7,7 +7,6 @@ A NOTE:
 - Why is register used so many times? It's used to make the program as fast as possible, register storage class is faster than auto storage class.
 - Why are chars defined as ints? chars are ints, they're represented by ASCII codes, for example 'A' is actually 65 in ASCII.
 - A git repo comes with this directory, the first commit is 16159c8af7ee95df731bd1fb1ea62a0225a8f306, do "git checkout 16159c8af7ee95df731bd1fb1ea62a0225a8f306" to play with it. It's really basic.
-- Current commit hash: 16159c8af7ee95df731bd1fb1ea62a0225a8f306
 */
 #include <stdio.h>
 #include <stdlib.h>
