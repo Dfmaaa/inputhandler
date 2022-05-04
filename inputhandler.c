@@ -164,7 +164,7 @@ bool input(void *abptr,char *typestr,char *simple_str_inp){
 int main(void){
  int delm='t';
  char x[STRBOUND];
- input(x,delm,STRBOUND);
+ input_str(x,delm,STRBOUND);
  printf("%s\n",x);
  return 0;
 }
